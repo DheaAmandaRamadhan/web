@@ -1,0 +1,191 @@
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0 px;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'open sans';
+}
+
+/* css navigation class wrapper */
+.wrapper{
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+/* css class logo */
+.logo {
+    width: 5px;
+    height: 5px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.wrapper .logo img{
+    width: 40px;
+    height: 35px;
+    margin-left: 2px;
+    padding-left: 5px;
+}
+
+/* css menu */
+.menu{
+    float: right;
+}
+
+nav{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 40px;
+    position: sticky;
+    top: 0;
+    background-color: rgb(134, 131, 131);
+    z-index: 1;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li{
+    float: left;
+}
+
+nav ul li a {
+    color: rgb(26, 24, 24);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    font-size: 17px;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+}
+
+/* css welcome class banner */
+.banner{
+    height: 90vh;
+    background-image: url(../images/2.jpg);
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner after{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+/* css h2 class banner */
+.banner h2{
+    color: rgb(15, 14, 14);
+    z-index: 1;
+    padding: 9px 18px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* css paragraph class banner */
+.banner .welcome p{
+    color: rgb(15, 14, 14);
+    z-index: 1;
+    padding: 10px 15px;
+    letter-spacing: 1px;
+}
+
+/* css postingan bagian kolom */
+.kolom {
+    width: 50%;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* css postingan bagian baris */
+.row {
+    display: flex;
+    padding-right: 15px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+img{
+    width: 280px;
+    height: 280px;
+    margin-top: 5px;
+    margin-left: 90px;
+}
+
+/* css header dibawah gambar */
+.kolom h2{
+    margin-left: 100px;
+    font-family : 'Times New Roman', Times, serif;
+    color:rgb(156, 160, 160);
+}
+
+.kolom .writer{
+    margin-left: 100px;
+    margin-top: 7px;
+    font-family: 'Times New Roman', Times, serif;
+    color:black;
+    font-weight : bold;
+}
+
+.kolom p{
+    margin-left: 650px;
+    font-family: 'Times New Roman', Times, serif;
+    color:black
+}
+
+/* css button read more */
+a.button{
+    background-color: rgb(101, 105, 105);
+    margin-top: 100px;
+    padding: 9px 20px 9px 20px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.kolom .isi{
+    margin: 0px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+    margin-left: 90px;
+    text-align: justify;
+}
+
+.kolom .link{
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+    margin-left: 90px;
+}
+
+a.button:hover{
+    background:rgb(88, 87, 87);
+    text-decoration: none;
+}
+
+/* css footer */
+.footer{
+    font-family:Georgia;
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(88, 87, 87);
+    color:azure;
+}
